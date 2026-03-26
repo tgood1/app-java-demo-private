@@ -42,6 +42,8 @@ jobs:
       id-token: write
       repository-projects: read
       pull-requests: read
+      security-events: write
+      actions: read
       contents: read
     name: endorctl-scan
     runs-on: ubuntu-latest
