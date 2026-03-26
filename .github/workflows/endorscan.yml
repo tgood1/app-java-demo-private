@@ -30,6 +30,7 @@ jobs:
         namespace: 'endor-solutions-tgood.github'
         api_key: ${{ secrets.ENDOR_API_KEY }}
         api_secret: ${{ secrets.ENDOR_API_SECRET }}
+        enable_github_action_token: false
         scan_dependencies: true
         scan_secrets: true
         pr: true
@@ -61,6 +62,7 @@ jobs:
         namespace: 'endor-solutions-tgood.github'
         api_key: ${{ secrets.ENDOR_API_KEY }}
         api_secret: ${{ secrets.ENDOR_API_SECRET }}
+        enable_github_action_token: false
         scan_dependencies: true
         scan_secrets: true
         pr: false
