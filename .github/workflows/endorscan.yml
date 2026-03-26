@@ -56,7 +56,7 @@ jobs:
       if: ${{ github.event_name == 'push' }}
       uses: endorlabs/github-action@b8992820cc4d9c9e7ded5022adf6cabe2dc11946 #v1.1.12 
       with:
-        namespace: 'example' # Replace with your Endor Labs tenant namespace
+        namespace: 'endor-solutions-tgood.github'
         scan_dependencies: true
         scan_secrets: true
         pr: false
