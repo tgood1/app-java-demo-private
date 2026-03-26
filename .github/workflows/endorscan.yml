@@ -25,7 +25,7 @@ jobs:
       run: mvn clean install
     - name: Endor Labs Scan Pull Request
       if: github.event_name == 'pull_request'
-      uses: endorlabs/github-action@vb8992820cc4d9c9e7ded5022adf6cabe2dc11946 # v1.1.12
+      uses: endorlabs/github-action@b8992820cc4d9c9e7ded5022adf6cabe2dc11946 # v1.1.12
       with:
         namespace: 'endor-solutions-tgood.github'
         scan_dependencies: true
